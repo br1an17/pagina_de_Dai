@@ -1,9 +1,21 @@
-body { 
-    background-color: rgb(222, 54, 132);
-    color: rgb(244, 247, 242);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-font-size: 12px;
+body {
+    margin-left: 40%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url("../imagenes/conjunto-herramientas-manicura-cuidado-sobre-fondo-rosa_183793-361.avif");
+  color: rgb(244, 247, 242);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 12px;
+/* justify-content: center; */
 }
-p{
-    color: black;
+p {
+  color: black;
 }
+.img {
+  height: 20px;
+}
+.uñas {
+  height: 15rem;
+  width: 15rem;
+}
+
