@@ -5,5 +5,8 @@ border: 5px solid red;
 background-color: rgb(127, 188, 241);
 border-radius: 10px;
 display: flex;
-
+position: absolute;
+right: 0%;
+left: 0%;
+top: 0%;
 }
