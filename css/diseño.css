@@ -1,5 +1,5 @@
 body {
-    margin-left: 40%;
+    /* margin-left: 40%; */
   background-size: cover;
   background-attachment: fixed;
   background-image: url("../imagenes/conjunto-herramientas-manicura-cuidado-sobre-fondo-rosa_183793-361.avif");
@@ -8,6 +8,7 @@ body {
   font-size: 12px;
 /* justify-content: center; */
 }
+
 p {
   color: black;
 }
@@ -17,5 +18,9 @@ p {
 .uñas {
   height: 15rem;
   width: 15rem;
+}
+.botonInicio{
+display: flex;
+position:relative;
 }
 

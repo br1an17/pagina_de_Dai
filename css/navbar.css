@@ -1,0 +1,9 @@
+.navbar{
+font-size: 20px;
+font-family: 'Kanit', sans-serif;
+border: 5px solid red;
+background-color: rgb(127, 188, 241);
+border-radius: 10px;
+display: flex;
+
+}
