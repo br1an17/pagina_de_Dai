@@ -1,5 +1,4 @@
 .ig{
-
 width: 30px;
 height: 20px;
 border-radius: 50%;
@@ -7,3 +6,17 @@ padding: "-15px";
 border: none;
 margin: 5px;
 }
+.picture{
+display: flex;
+flex-direction: row;
+text-align: center;
+width: 80%;
+justify-content: space-around;
+margin: 5rem;
+}
+.picture a{
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* text-align: center; */
+    /* justify-content: space-between; */
+    }
