@@ -1,0 +1,29 @@
+.soft{
+display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 300px;
+
+}
+.soft ul {
+list-style: none;
+margin: 0;
+padding: 0;
+  }
+
+.carrusel{
+display: flex;
+gap: 100px;
+overflow: auto;
+
+}
+
+.carrusel img {
+  border-radius: 50%;
+    height: 90%;
+    width: 10rem;
+}
+.carruselMenu img{
+width: 30px;
+height: 30px;
+}
