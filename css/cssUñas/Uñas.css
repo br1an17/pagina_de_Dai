@@ -3,27 +3,32 @@ display: flex;
     justify-content: space-between;
     width: 100%;
     height: 300px;
-
+    border: 1px solid red;
 }
 .soft ul {
 list-style: none;
 margin: 0;
 padding: 0;
+
   }
 
 .carrusel{
 display: flex;
 gap: 100px;
 overflow: auto;
-
+width: 500px;
 }
 
 .carrusel img {
   border-radius: 50%;
-    height: 90%;
-    width: 10rem;
+    height: 80%;
+    width: 12rem;
 }
 .carruselMenu img{
 width: 30px;
 height: 30px;
+}
+
+h1{
+  color: red;
 }
