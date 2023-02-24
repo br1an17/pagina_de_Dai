@@ -65,6 +65,7 @@ border-radius: 10px;
   color: blueviolet;
 }
 .about p{
+  margin: 15px;
  font-size: 20px;
  filter: drop-shadow( 8px 8px 4px blueviolet);
  color: rgb(203, 23, 23);
