@@ -1,39 +1,37 @@
-.soft{
-display: flex;
-    justify-content: space-between;
-    width: 38%;
-    height: 300px;
-    border: 1px solid red;
+.soft {
+  display: flex;
+  justify-content: space-between;
+  width: 38%;
+  height: 300px;
+  border: 1px solid red;
 }
 .soft ul {
-list-style: none;
-margin: 0;
-padding: 0;
-
-  }
-
-.carrusel{
-display: flex;
-gap: 60px;
-overflow: auto;
-width: 500px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-.carrusel li img{
+.carrusel {
+  display: flex;
+  gap: 60px;
+  overflow: auto;
+  width: 500px;
+}
 
+.carrusel li img {
   margin: 10px;
 }
 
 .carrusel img {
   border-radius: 50%;
-    height: 80%;
-    width: 10rem;
+  height: 80%;
+  width: 10rem;
 }
-.carruselMenu img{
-width: 30px;
-height: 30px;
+.carruselMenu img {
+  width: 30px;
+  height: 30px;
 }
 
-h1{
+h1 {
   color: red;
 }
