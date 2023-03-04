@@ -1,8 +1,8 @@
 .soft {
   display: flex;
   justify-content: space-between;
-  width: 38%;
-  height: 300px;
+  width: 30%;
+  height: 280px;
   border: 1px solid red;
 }
 .soft ul {
@@ -11,14 +11,14 @@
   padding: 0;
 }
 
-.carrusel {
+/* .carrusel {
   display: flex;
   gap: 60px;
   overflow: auto;
   width: 500px;
-}
+} */
 
-.carrusel li img {
+/* .carrusel li img {
   margin: 10px;
 }
 
@@ -30,7 +30,7 @@
 .carruselMenu img {
   width: 30px;
   height: 30px;
-}
+} */
 
 h1 {
   color: red;
