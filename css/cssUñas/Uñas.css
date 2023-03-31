@@ -11,26 +11,6 @@
   padding: 0;
 }
 
-/* .carrusel {
-  display: flex;
-  gap: 60px;
-  overflow: auto;
-  width: 500px;
-} */
-
-/* .carrusel li img {
-  margin: 10px;
-}
-
-.carrusel img {
-  border-radius: 50%;
-  height: 80%;
-  width: 10rem;
-}
-.carruselMenu img {
-  width: 30px;
-  height: 30px;
-} */
 
 h1 {
   color: red;
