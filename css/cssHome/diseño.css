@@ -12,40 +12,33 @@ body {
   flex-direction: column;
 }
 
-p {
-  color: white;
-}
-
-.img {
-  height: 20px;
-}
-
 
 .circulo {
   width: 100px;
   height: 100px;
   border-radius: 50%;
 }
+
+
 .ig {
-  width: 30px;
-  height: 20px;
+  width: 30%;
+  height: 40px;
   border-radius: 50%;
-  padding: "-15px";
-  border: none;
-  margin: 2px;
+
 }
+
+
 .picture {
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: row;
-  text-align: center;
   justify-content: space-around;
   margin: 3rem;
 }
-.picture a {
+.picture a{
   color: red;
-  flex-direction: column;
+  text-decoration: none;
 }
 
 .botonInicio {
@@ -57,6 +50,7 @@ p {
 }
 .botonInicio a {
   color: aliceblue;
+  text-decoration: none;
 }
 
 .about {
@@ -66,7 +60,6 @@ p {
   height: 100%;
   font-family: "Kanit", sans-serif;
   background-color: rgb(212, 134, 160);
-  background-size: cover;
   border-radius: 30px;
   box-shadow: 5px 21px 20px 20px #100f1064;
 }
@@ -87,10 +80,4 @@ p {
   font-size: 20px;
   filter: drop-shadow(8px 8px 4px blueviolet);
   color: rgb(203, 23, 23);
-}
-.link{
-
-color: red;
-font-size: 20px;
-
 }
