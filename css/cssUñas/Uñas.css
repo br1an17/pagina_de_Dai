@@ -3,7 +3,7 @@
   justify-content: space-between;
   width: 30%;
   height: 280px;
-  border: 1px solid red;
+  Overflow-x: hidden,
 }
 .soft ul {
   list-style: none;
