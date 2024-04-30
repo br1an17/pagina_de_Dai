@@ -1,11 +1,14 @@
 body {
   margin: 0;
-  background-size: cover;
+  background-size:cover;
   background-attachment: fixed;
-  background-image: url("../../imagenes/fondo.avif");
+  background-image: url("../../imagenes/WhatsApp\ Image\ 2024-04-29\ at\ 18.46.22.jpeg");
   font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
   font-size: 12px;
 }
+
+
+
 .container {
   padding: 50px;
   display: flex;
