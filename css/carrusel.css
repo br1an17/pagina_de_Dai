@@ -2,7 +2,6 @@
     display: flex;
     gap: 60px;
     overflow: auto;
-    width: 610px;
 margin-left: 50px;
   }
 .carrusel li img {
@@ -13,8 +12,4 @@ margin-left: 50px;
     border-radius: 50%;
     height: 80%;
     width: 10rem;
-  }
-  .carruselMenu img {
-    width: 30px;
-    height: 30px;
   }
