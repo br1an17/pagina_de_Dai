@@ -1,11 +1,14 @@
-.mapa{
-text-align: center;
-    width: 80%;
-    height: 300px;
-    justify-content: center;
-   display: flex;
-   left: 30px;
-   border: 10px solid red;
-
-   padding: 20px;
+.mapa {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.ubi {
+  text-align: center;
+  border: 10px solid red;
+  height: 20rem;
+  width: 20rem;
 }
