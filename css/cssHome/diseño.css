@@ -1,16 +1,13 @@
 body {
   margin: 0;
-  background-size:cover;
+  background-size: cover;
   background-attachment: fixed;
   background-image: url("../../imagenes/WhatsApp\ Image\ 2024-04-29\ at\ 18.46.22.jpeg");
   font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
   font-size: 12px;
 }
 
-
-
 .container {
-  padding: 50px;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -28,20 +25,6 @@ body {
   border-radius: 53%;
 }
 
-.picture {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: space-around;
-  margin: 2rem;
-}
-.picture a {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-decoration: none;
-}
-
 .botonInicio {
   position: fixed;
   background-color: blue;
@@ -55,10 +38,9 @@ body {
 }
 
 .about {
-  position: relative;
-  margin-top: 30px;
-  width: 100%;
-  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 10rem;
   font-family: "Kanit", sans-serif;
   background-color: rgb(212, 134, 160);
   border-radius: 30px;
@@ -83,7 +65,6 @@ body {
   color: blueviolet;
   width: 100%;
   height: 100%;
-
 }
 .about p {
   margin: 30px;
@@ -91,8 +72,26 @@ body {
   filter: drop-shadow(8px 8px 4px blueviolet);
   color: rgb(203, 23, 23);
 }
-.redes{
-display: flex;
-flex-direction: column;
-text-align: center;
+.picture {
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem;
+}
+.picture a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+.redes_autor {
+  display: flex;
+  justify-content: space-evenly;
+  text-decoration: none;
+}
+.redes_autor a {
+  text-decoration: none;
+  margin-top: 2rem;
+}
+footer {
+  background-color: aliceblue;
 }
