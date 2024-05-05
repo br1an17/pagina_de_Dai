@@ -11,12 +11,14 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
+
 }
 
 .circulo {
   width: 100px;
   height: 100px;
   border-radius: 50%;
+  
 }
 
 .ig {
@@ -54,7 +56,7 @@ body {
   font-family: "Kanit", sans-serif;
   background-color: rgb(212, 134, 160);
   border-radius: 30px;
-  box-shadow: 5px 21px 20px 20px #100f1064;
+  box-shadow: 5px 21px 20px  #100f1064;
 }
 
 .about h1 {
@@ -69,19 +71,22 @@ body {
 .about p {
   margin: 30px;
   font-size: 20px;
-  filter: drop-shadow(8px 8px 4px blueviolet);
-  color: rgb(203, 23, 23);
+  filter: drop-shadow(12px 8px 3px rgb(116, 67, 161));
 }
 .picture {
   display: flex;
   justify-content: space-around;
   margin: 2rem;
+  font-size: 20px;
+  
 }
 .picture a {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-decoration: none;
+  color: rgb(74, 76, 78);
+ filter: drop-shadow(8px 8px 3px rgb(116, 67, 161));
 }
 footer {
   background-color: aliceblue;
