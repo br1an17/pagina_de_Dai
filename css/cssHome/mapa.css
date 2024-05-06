@@ -8,7 +8,7 @@
 }
 .ubi {
   text-align: center;
-  border: 10px solid red;
+  border: 3px solid var(--leter-violeta);
   height: 20rem;
   width: 20rem;
 }
