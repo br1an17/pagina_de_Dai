@@ -83,3 +83,9 @@ footer {
   margin-bottom: 2rem;
   color:var(--leter-violeta);
 }
+
+.titulo {
+  color: var(--leter-violeta);
+margin-top: 4rem;
+}
+
