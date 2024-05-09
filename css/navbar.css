@@ -20,6 +20,7 @@
   color:var(--leter-violeta);
 }
 
+
 .link {
   background-color: var(--leter-violeta);
   width: 70%;
@@ -30,4 +31,19 @@
 .link a {
   color: var(--bg--violeta);
   text-decoration: none;
+  transition: transform 0.4s ease;
 }
+.link a:hover{
+animation: brillo 0.5s infinite alternate;
+color: rgba(223, 103, 250, 0.733);
+transform: scale(1.1);
+}
+
+@keyframes brillo {
+  from {
+      filter: brightness(100%);
+  }
+  to {
+      filter: brightness(300%);
+  }
+} 

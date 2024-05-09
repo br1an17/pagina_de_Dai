@@ -1,12 +1,12 @@
 :root {
-  --leter-violeta:  rgb(67, 30, 106);
-  --bg--violeta:rgba(192, 21, 231, 0.733);
+  --leter-violeta: rgb(67, 30, 106);
+  --bg--violeta: rgba(192, 21, 231, 0.733);
 }
 
 body {
   margin: 0;
   background-size: cover;
-  background-attachment:fixed;
+  background-attachment: fixed;
   background-image: url("../../imagenes/WhatsApp\ Image\ 2024-04-29\ at\ 18.46.22.jpeg");
   font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
   font-size: 12px;
@@ -16,48 +16,48 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
-}
-.circulo {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%; 
-}
-.ig {
-  display: flex;
-  width: 3rem;
-  height: 3rem;
-  border-radius: 50%;
+
 }
 .about {
   display: flex;
   flex-direction: column;
   margin: 10rem;
   font-family: "Kanit", sans-serif;
-  background-color:var(--bg--violeta);
+  background-color: var(--bg--violeta);
   border-radius: 30px;
-  box-shadow: 5px 21px 20px 20px #100f1064;
+  transition: transform 0.3s ease;
 }
 .about h1 {
   font-size: 30px;
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   font-family: "Kanit", sans-serif;
-  color:var(--leter-violeta);
-  width: 100%;
-  height: 100%;
-
+  color: var(--leter-violeta);
 }
 .about p {
   margin: 30px;
   font-size: 20px;
   filter: drop-shadow(12px 8px 3px black);
 }
+.circulo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  transition: transform 0.4s ease;
+}
+.ig {
+  display: flex;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  transition: transform 0.4s ease;
+}
+
 .picture {
   display: flex;
   justify-content: space-around;
   margin: 2rem;
   font-size: 20px;
-  
 }
 .picture a {
   display: flex;
@@ -65,10 +65,10 @@ body {
   align-items: center;
   text-decoration: none;
   color: var(--leter-violeta);
- filter: drop-shadow(8px 8px 3px var(--bg--violeta));
 }
 footer {
-  background-color:var(--bg--violeta);
+  text-align: center;
+  background-color: var(--bg--violeta);
 }
 .redes_autor {
   display: flex;
@@ -76,16 +76,23 @@ footer {
   font-size: 1rem;
 }
 
-
 .redes_autor a {
   text-decoration: none;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  color:var(--leter-violeta);
+  color: var(--leter-violeta);
 }
 
 .titulo {
   color: var(--leter-violeta);
-margin-top: 4rem;
+  margin-top: 4rem;
 }
 
+.picture a:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(8px 8px 3px var(--bg--violeta));
+}
+.about:hover {
+  transform: scale(1.1);
+   filter: drop-shadow(8px 8px 3px var(--bg--violeta));
+} 

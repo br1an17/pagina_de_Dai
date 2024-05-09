@@ -1,14 +1,17 @@
 .mapa {
+  display: flex;
   text-align: center;
   justify-content: center;
-  display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
 }
 .ubi {
-  text-align: center;
+  margin-top: 1rem;
   border: 3px solid var(--leter-violeta);
   height: 20rem;
   width: 20rem;
 }
+.ubi:hover {
+  transform: scale(1.1);
+   filter: drop-shadow(8px 8px 3px var(--bg--violeta));
+} 
