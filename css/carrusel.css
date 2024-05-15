@@ -1,15 +1,15 @@
 .carrusel {
-    display: flex;
-    gap: 60px;
-    overflow: auto;
-margin-left: 50px;
-  }
-.carrusel li img {
-    margin: 10px;
-  }
-  
-  .carrusel img {
-    border-radius: 50%;
-    height: 80%;
-    width: 10rem;
-  }
+  display: flex;
+  gap: 60px;
+  overflow: auto;
+  margin-left: 50px;
+}
+.mar{
+  margin: 10px;
+}
+
+.carrusel img {
+  border-radius: 50%;
+  height: 80%;
+  width: 10rem;
+}
