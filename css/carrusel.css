@@ -4,11 +4,9 @@
   overflow: auto;
   margin-left: 50px;
 }
-.mar{
-  margin: 10px;
-}
 
-.carrusel img {
+
+.mar{
   border-radius: 50%;
   height: 80%;
   width: 10rem;
