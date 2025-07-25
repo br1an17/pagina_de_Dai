@@ -1,13 +1,16 @@
 :root {
-  --leter-violeta: rgb(67, 30, 106);
-  --bg--violeta: rgba(192, 21, 231, 0.733);
+  --bg--violeta:rgb(153, 130, 195);
+  --leterTitle--violeta: rgb(67, 30, 106);
+  --shadow--violeta: rgba(136, 60, 181, 0.733);
+  --about--amarillo: rgba(236, 241, 140, 0.8);
+  --about--fucsia:     rgba(179, 80, 240, 0.8)
 }
 
 body {
   margin: 0;
+  background-color: var(--bg--violeta);
   background-size: cover;
   background-attachment: fixed;
-  background-image: url("../../imagenes/WhatsApp\ Image\ 2024-04-29\ at\ 18.46.22.jpeg");
   font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
   font-size: 12px;
 }
@@ -25,8 +28,8 @@ body {
   font-family: "Kanit", sans-serif;
    background: linear-gradient(
     to bottom right,
-    rgba(236, 241, 140, 0.8),
-    rgba(179, 80, 240, 0.8)
+    var(--about--amarillo),
+    var(--about--fucsia)
   );
   border-radius: 30px;
   transition: transform 0.3s ease;
@@ -35,13 +38,13 @@ body {
   font-size: 30px;
   display: flex;
   justify-content: center;
-  font-family: "Kanit", sans-serif;
-  color: var(--leter-violeta);
+  font-family: "Dancing Script", cursive;
+  color: var(--leterTitle--violeta);
 }
 .about p {
   margin: 30px;
   font-size: 20px;
-  filter: drop-shadow(12px 8px 3px black);
+  filter: drop-shadow(5px 4px 3px rgba(0, 0, 0, 0.895));
 }
 .circulo {
   width: 100px;
@@ -88,19 +91,19 @@ footer {
   text-decoration: none;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  color: var(--leter-violeta);
+  color: var(--leterTitle--violeta);
 }
 
 .titulo {
-  color: var(--leter-violeta);
+  color: var(--leterTitle--violeta);
   margin-top: 4rem;
 }
 
 .picture a:hover {
   transform: scale(1.1);
-  filter: drop-shadow(8px 8px 3px var(--bg--violeta));
+  filter: drop-shadow(8px 8px 3px var(--about--fucsia));
 }
 .about:hover {
   transform: scale(1.1);
-   filter: drop-shadow(8px 8px 3px var(--bg--violeta));
+   filter: drop-shadow(8px 8px 3px var(--about--fucsia));
 } 
