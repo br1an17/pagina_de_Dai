@@ -1,5 +1,5 @@
 :root {
-  --bg--violeta:rgb(153, 130, 195);
+  --bg--violeta:rgb(246, 215, 245);
   --leterTitle--violeta: rgb(67, 30, 106);
   --shadow--violeta: rgba(136, 60, 181, 0.733);
   --about--amarillo: rgba(236, 241, 140, 0.8);
@@ -73,37 +73,52 @@ body {
   text-decoration: none;
   color: var(--leter-violeta);
 }
-footer {
-  text-align: center;
-  background:linear-gradient(
+
+.titulo {
+  font-size: 30px;
+  font-family: "Dancing Script", cursive;
+  color: var(--leterTitle--violeta);
+  margin-top: 4rem;
+  background: linear-gradient(
     to bottom right,
     rgba(236, 241, 140, 0.8),
     rgba(179, 80, 240, 0.8)
-  );
-}
-.redes_autor {
-  display: flex;
-  justify-content: space-evenly;
-  font-size: 1rem;
-}
-
-.redes_autor a {
-  text-decoration: none;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  color: var(--leterTitle--violeta);
-}
-
-.titulo {
-  color: var(--leterTitle--violeta);
-  margin-top: 4rem;
-}
-
-.picture a:hover {
-  transform: scale(1.1);
-  filter: drop-shadow(8px 8px 3px var(--about--fucsia));
-}
-.about:hover {
-  transform: scale(1.1);
-   filter: drop-shadow(8px 8px 3px var(--about--fucsia));
-} 
+    );
+  }
+  
+  .picture a:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(6px 6px 25px var(--about--fucsia));
+  }
+  .about:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(6px 6px 25px var(--about--fucsia));
+  } 
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    font-size: 1rem;
+    font-family: "Kanit", sans-serif;
+    color: var(--leterTitle--violeta);
+    margin-top: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px var(--shadow--violeta);
+    background:linear-gradient(
+      to bottom right,
+      rgba(236, 241, 140, 0.8),
+      rgba(179, 80, 240, 0.8)
+      );
+    }
+    .redes_autor {
+      display: flex;
+      justify-content: space-evenly;
+      font-size: 1rem;
+    }
+    
+    .redes_autor a {
+      color: var(--leterTitle--violeta);
+      text-decoration: none;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
