@@ -16,6 +16,7 @@ body {
 }
 
 .container {
+  margin: 0%;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -95,12 +96,14 @@ body {
 }
 
 footer {
+      width: 100%;
+    box-sizing: border-box;
   text-align: center;
   padding: 1rem;
   font-size: 1rem;
   font-family: "Kanit", sans-serif;
   color: var(--leterTitle--violeta);
-  margin-top: 2rem;
+  margin-top: 1rem;
   border-radius: 10px;
   box-shadow: 0 4px 8px var(--shadow--violeta);
   background: linear-gradient(
