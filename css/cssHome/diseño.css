@@ -1,9 +1,9 @@
 :root {
-  --bg--violeta:rgb(246, 215, 245);
+  --bg--violeta: rgb(246, 215, 245);
   --leterTitle--violeta: rgb(67, 30, 106);
   --shadow--violeta: rgba(136, 60, 181, 0.733);
   --about--amarillo: rgba(236, 241, 140, 0.8);
-  --about--fucsia:     rgba(179, 80, 240, 0.8)
+  --about--fucsia: rgba(179, 80, 240, 0.8);
 }
 
 body {
@@ -19,14 +19,13 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
-
 }
 .about {
   display: flex;
   flex-direction: column;
   margin: 10rem;
   font-family: "Kanit", sans-serif;
-   background: linear-gradient(
+  background: linear-gradient(
     to bottom right,
     var(--about--amarillo),
     var(--about--fucsia)
@@ -83,42 +82,96 @@ body {
     to bottom right,
     rgba(236, 241, 140, 0.8),
     rgba(179, 80, 240, 0.8)
-    );
+  );
+}
+
+.picture a:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(6px 6px 25px var(--about--fucsia));
+}
+.about:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(6px 6px 25px var(--about--fucsia));
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 1rem;
+  font-family: "Kanit", sans-serif;
+  color: var(--leterTitle--violeta);
+  margin-top: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px var(--shadow--violeta);
+  background: linear-gradient(
+    to bottom right,
+    rgba(236, 241, 140, 0.8),
+    rgba(179, 80, 240, 0.8)
+  );
+}
+.redes_autor {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1rem;
+}
+
+.redes_autor a {
+  color: var(--leterTitle--violeta);
+  text-decoration: none;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .about {
+    margin: 2rem;
+    font-size: 16px;
   }
-  
-  .picture a:hover {
-    transform: scale(1.1);
-    filter: drop-shadow(6px 6px 25px var(--about--fucsia));
-  }
-  .about:hover {
-    transform: scale(1.1);
-    filter: drop-shadow(6px 6px 25px var(--about--fucsia));
-  } 
-  
-  footer {
+
+  .about h1 {
+    font-size: 24px;
     text-align: center;
-    padding: 1rem;
-    font-size: 1rem;
-    font-family: "Kanit", sans-serif;
-    color: var(--leterTitle--violeta);
-    margin-top: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px var(--shadow--violeta);
-    background:linear-gradient(
-      to bottom right,
-      rgba(236, 241, 140, 0.8),
-      rgba(179, 80, 240, 0.8)
-      );
-    }
-    .redes_autor {
-      display: flex;
-      justify-content: space-evenly;
-      font-size: 1rem;
-    }
-    
-    .redes_autor a {
-      color: var(--leterTitle--violeta);
-      text-decoration: none;
-      margin-top: 2rem;
-      margin-bottom: 2rem;
-    }
+  }
+
+  .about p {
+    font-size: 16px;
+    margin: 1rem;
+  }
+
+  .picture {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .picture a {
+    font-size: 18px;
+  }
+
+  .circulo {
+    width: 80px;
+    height: 80px;
+  }
+
+  .ig {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .titulo {
+    font-size: 24px;
+    margin: 2rem 0 1rem;
+  }
+
+  .redes_autor {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 14px;
+  }
+
+  footer {
+    font-size: 0.9rem;
+    padding: 0.5rem;
+  }
+}
