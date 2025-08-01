@@ -6,7 +6,7 @@
   display: flex;
   justify-content: space-between;
 }
-.b {
+.tituloNav {
   font-size: 30px;
   font-family: "Kanit", sans-serif;
   background: linear-gradient(
