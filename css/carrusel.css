@@ -1,16 +1,32 @@
-.carruselUñas{
+
+.carruselUñas {
   display: flex;
-  gap: 60px;
-  overflow: auto;
-  margin-left: 50px;
+  gap: 40px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-left: 20px;
+  padding-right: 20px;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
 }
 
+.carruselUñas::-webkit-scrollbar {
+  display: none;
+}
 
-.mar{
+.carruselUñas li {
+  list-style: none;
+  flex: 0 0 auto;
+  padding: 0;
+  margin: 0;
+}
+.mar {
   border-radius: 50%;
-  height: 80%;
-  width: 10rem;
-  text-decoration: none;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+  border: none;
 }
  .carrusel {
   display: flex;

@@ -178,3 +178,7 @@ footer {
     padding: 0.5rem;
   }
 }
+
+body {
+  overflow-x: hidden;
+}
